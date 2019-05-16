@@ -346,6 +346,36 @@
     
     
     <article class="index-post">
+        <a class="abstract-title" href="/2019/05/16/新建文本文档/">
+            
+                <span>指针与数组</span>
+        </a>
+        <div class="abstract-content">
+            #指针与数组
+###1. 一级指针一级指针是存放地址的变量。
+###2. 二级指针二级指针是存放指针的变量。
+###3. 指针和数组数组名可当做指针，在sizeof（arr）和&amp;arr的情况下，数组名代表整个数组的地址，其余情况下，数组名代表数组首元素的地址。列如：
+结果如下
+
+虽然arr与&amp;arr的结果相同，但arr代表首元素的大小，&amp;arr代表整个数组的大小。因为，指针+1代表加上其所指类型的大小。所以arr+1为0115FA34，&amp;arr+1为0115FA48，他们之间相差24（整个数组的大小）
+###4. 指针数组指针数组是数组，可写为 int a...
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/05/16</span>
+            </div>
+            <!-- tags  -->
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
         <a class="abstract-title" href="/2019/04/27/hello-world/">
             
                 <span>Hello World</span>
@@ -475,9 +505,16 @@ Run server$ hexo se...
     
     
     
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 1
+        Total : 2
         </div>
         <!-- search  -->
         
@@ -487,6 +524,20 @@ Run server$ hexo se...
     
     
     
+    
+    <div class="archive-year"> Invalid date </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href="/2019/05/16/新建文本文档/">指针与数组</a>
+        </li>
+    
+    
+    
+    
+    
+        </ul>
     
     <div class="archive-year"> 2019 </div>
     <ul class="year-list">
