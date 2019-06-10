@@ -369,7 +369,8 @@ height:50vh;
 FILE*  fopen(const char *path, const char *mode)；
 
 参数：参数path是需要打开文件的文件名，通常把它叫做文件的路径，参数 mode 是打开文件的权限（只读、只写、读写等）。
-返回值：打开成功返回指向打开文件的指针，后序可以通过这个指针来访问该文件。打开失败则返回NULL。使用方式| 含义|如果指定文件不存在-|-|-“r”（只读）|为了输入数据，打开一个已经存在的文本文件|出错“w”（只写）|为了输出数据，打开一个文本文件 |建立一个新的文件“a”（追加）|向文本文件尾添加数据|出错“...
+返回值：打开成功返回指向打开文件的指针，后序可以通过这个指针来访问该文件。打开失败则返回NULL。
+“r”（只读），为了输入数据，打开一个已经存在的文本文件出错“w”（只写），为了输出数据，打开一个文本文件，建立一个新的文件“a”（追加），向文本文件尾添加数据，出错“rb”（只读），为了输入数据，打开一个二进制文件...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
@@ -718,6 +719,8 @@ struct e{char f;struct e *x;}n1={‘a’,{‘b’,10}};
     
     
     
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
         Total : 4
@@ -827,7 +830,7 @@ jsonContent:
     </div>
     <!-- async load share.js -->
      
-    </body>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
 
 
