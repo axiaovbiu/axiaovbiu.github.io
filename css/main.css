@@ -301,7 +301,6 @@ hr {
   height: 3px;
   border: none;
   background-color: #ddd;
-  background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
 blockquote {
   margin: 0;
@@ -1764,7 +1763,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #aaec77;
+  background: #3eb6fc;
 }
 .feed-link,
 .chat {
